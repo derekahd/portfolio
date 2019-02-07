@@ -1,0 +1,136 @@
+/*overall*/
+
+body {
+    background-color: #212121;
+    color: #E5E5E5;
+    font-family: "Consolas", monospace;
+}
+
+.main {
+    width: 60%;
+    padding: 5px 25px;
+    position: relative;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border-bottom-left-radius: 12.5px;
+    border-bottom-right-radius: 12.5px;
+    background-color: #333333;
+  }
+
+.pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }
+
+.imgtxt {
+    position: relative;
+    text-align: center;
+    color: #79F297;
+    font-size: 72px;
+    font-variant: small-caps;
+
+}
+
+.centertxt {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+}
+
+code {
+    border-radius: 3px;
+    border: 1px solid #79F297;
+    padding: 1px 1px;
+}
+
+button {
+    background-color: #333333;
+    border-radius: 3px;
+    border: 1px solid #79F297;
+    padding: 1px 1px;
+    font: 36px bold;
+    color: #E5E5E5;
+    font-family: 'Ubuntu', sans-serif;
+    opacity: 0.75;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 24px;
+}
+
+/*overall end*/
+
+/*links*/
+a:link, a:visited {
+    color: #E5E5E5;
+    text-decoration: underline dashed #79F297;
+    opacity: 0.75;
+}
+
+a:hover {
+    opacity: 1;
+    text-decoration: underline solid #79F297;
+}
+/* Hover Disabled
+a:hover {
+    text-decoration: underline solid;
+    background-color: #a593bb;
+}
+*/
+
+/*links end*/
+
+/*navigation bar*/
+
+nav ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    border-top-left-radius: 12.5px;
+    border-top-right-radius: 12.5px;
+    width: 60%;
+    background-color: #333333;
+
+}
+
+nav li {
+    float: right;
+}
+
+nav li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 36px;
+    font-variant: small-caps;
+    font-weight: bold;
+}
+
+nav li a:hover {
+  background-color: #79F297;
+  color: #333333;
+}
+
+/*navigation bar end*/
+
+/*coolors link: https://coolors.co/2c2f33-957356-fffbed-567895-fffbed */
+/*-moz- for Firefox
+and
+-webkit- for Safari*/
